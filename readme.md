@@ -1,4 +1,4 @@
-This is an example of an basic docker setup for a node api
+This is an example of an basic docker setup for a node api..
 
 ### Build image:
 
