@@ -1,0 +1,21 @@
+pipeline
+{
+agent any
+
+stages{
+stage("for main branch"){
+steps{
+when { branch 'main' }
+echo "project build success"
+}
+}
+
+stage("for dev branch"){
+when { branch 'dev' }
+steps{
+echo "developent completed"
+}
+}
+
+}
+}
